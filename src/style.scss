@@ -1,0 +1,28 @@
+main{
+  margin: 0 20px;
+}
+
+.gridCategory{
+  display: grid;
+  grid-auto-flow: column;
+  gap: 40px;
+}
+
+.card{
+  display: inline-block;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 15px;
+  text-align: center;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.card:hover{
+  transform: scale(1.05);
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
